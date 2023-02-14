@@ -2,6 +2,9 @@ sudo: it is a command that gives a user administrative privilages to execute com
 apt-get: it is a command that allows users ot install and manage software packages.
 IP address: 52.48.246.65
 
+To create .env, I used:
+cp .env.example .env
+
 sudo chgrp -R www-data storage bootstrap/cache
 //chgrp changes the group name a file or directory belongs to. -R means recursively on all files in storage and bootstrap/cache. www-data is the group that they will be set to.
 
